@@ -1,0 +1,9 @@
+.anchor-tag a {
+    color: #DE3163;
+    text-decoration: none;
+}
+
+.anchor-tag a:hover {
+    text-decoration: underline;
+    transform: scale(0.96);
+}

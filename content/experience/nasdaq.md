@@ -1,4 +1,0 @@
----
-title: "Nasdaq"
-layout: "archives"
----
