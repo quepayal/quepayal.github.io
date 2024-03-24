@@ -7,3 +7,49 @@
     text-decoration: underline;
     transform: scale(0.96);
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.box {
+    width: 80%;
+}
+
+main .profile_inline {
+    display: flex;
+    justify-content: center;
+}
+
+.main .profile_inline {
+    align-items: center;
+    text-align: center;
+}
+
+.profile_inline .profile_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile_inline img {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse; /* Stack items vertically in reverse order */
+    }
+    .box {
+        width: 100%; /* Take up full width */
+    }
+    /* profile-mode */
+    .profile img {
+        transform: scale(0.85);
+    }
+    main .profile_inline {
+        margin-bottom: 10%;
+    }
+}

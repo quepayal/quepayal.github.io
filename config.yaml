@@ -31,10 +31,10 @@ params:
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: false
   ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
+  ShowRssButtonInSectionTermList: false
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
@@ -129,19 +129,11 @@ menu:
     - identifier: featured
       name: Featured
       url: /featured/
-      weight: 30
-    - identifier: archive
-      name: Archive
-      url: /archive/
       weight: 40
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 40
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 40
+    - identifier: aboutme
+      name: About Me
+      url: /aboutme/
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
