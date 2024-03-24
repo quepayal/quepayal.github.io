@@ -62,7 +62,6 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Hi I'm Payal!
-    subtitle: "This is subtitle"
     imageUrl: "https://avatars.githubusercontent.com/u/31551887"
     imageWidth: 120
     imageHeight: 120

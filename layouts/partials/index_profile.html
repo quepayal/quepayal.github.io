@@ -31,12 +31,7 @@
         {{- end }}
         {{- end }}
         <h1>{{ .title | default site.Title | markdownify }}</h1>
-        {{- partial "about.html" -}}
-        {{- partial "experience.html" -}}
-        {{- partial "education.html" -}}
-        {{- partial "organizations.html" -}}
-
-        <span>{{ .subtitle | markdownify }}</span>
+        {{- partial "aboutme.html" -}}
         {{- partial "social_icons.html" -}}
     </div>
     {{- end}}
