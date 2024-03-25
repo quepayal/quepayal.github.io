@@ -1,0 +1,23 @@
+- company: Microsoft
+  ticker: msft
+  positions:
+    - title: Software Engineer 2 - Microsoft Search, Assistant and Intelligence (MSAI)
+      startdate: June 2020
+      enddate: Present
+      description: Improving M365 enterprise search relevance. Working on engineering infrastructure problems and data analysis for M365 Chat Copilot
+    - title: Software Engineer - Microsoft Outlook Security and  Compliance
+      startdate: June 2022
+      enddate: October 2022
+      description: Developed Louder UX for MIP Labels (Microsoft Information Protection) in Outlook Desktop to improve Outlook’s security and user experience for enterprise customers such as Accenture, L’OREAL, Bank of New York Mellon, Dell, Visa, Morgan Stanley, etc., which is commercialized under M365 E5 license. The feature was implemented to ensure data confidentiality, security and prevent unauthorized access by applying appropriate sensitivity labels. Worked on S/MIME encryption and signing functionality through sensitivity label feature in Outlook desktop. Implemented generic native support for content marking for sensitivity labels.
+    - title: Software Engineer - Microsoft Corporate Functions Engineering Group
+      startdate: June 2020
+      enddate: December 2021
+      description: Architected and implemented component versioning in a project under Employee Experience, to handle future structural changes in the application. Analyzed and migrated Application’s APIs from Service Fabric/APIM to Azure Functions that resulted in 50% performance increase, improved scalability, maintainability and 40% cost reduction. Implemented Azure Data Factory Pipeline to get the data from CosmosDb and SQL to Azure Storage table for analytics teams’ consumption.
+- company: Nasdaq
+  ticker: ndaq
+  position:
+    - title: Software Engineer Intern
+      company: Nasdaq
+      startdate: June 2019
+      enddate: July 2019
+      description: Implemented and deployed an Article Sentiment Analyzer built using Google NLP APIs, a chrome extension to analyze Nasdaq’s published articles.

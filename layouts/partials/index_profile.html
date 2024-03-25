@@ -31,7 +31,7 @@
         {{- end }}
         {{- end }}
         <h1>{{ .title | default site.Title | markdownify }}</h1>
-        {{- partial "aboutme.html" -}}
+        {{- partial "home.html" . -}}
         {{- partial "social_icons.html" -}}
     </div>
     {{- end}}

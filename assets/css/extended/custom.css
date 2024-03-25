@@ -8,12 +8,19 @@
     transform: scale(0.96);
 }
 
-.container {
+.horizontal-container {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-.box {
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about {
     width: 80%;
 }
 
@@ -39,7 +46,7 @@ main .profile_inline {
 }
 
 @media screen and (max-width: 768px) {
-    .container {
+    .horizontal-container {
         flex-direction: column-reverse; /* Stack items vertically in reverse order */
     }
     .box {
@@ -52,4 +59,8 @@ main .profile_inline {
     main .profile_inline {
         margin-bottom: 10%;
     }
+}
+
+body.dark .custom-svg {
+    filter: invert(1);
 }

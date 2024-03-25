@@ -1,0 +1,15 @@
+<div class="vertical-container">
+    <div>
+        
+            {{- partial "vector.html" (dict "name" "company")  -}}
+        
+        <h3>{{.company}}</h3>
+    </div>
+    {{ range .positions }}
+    <div>
+        <div>{{ .title }}</div>
+        <div>{{ .startdate }} - {{ .enddate }}</div>
+        <div>{{ .description }}</div>
+    </div>
+    {{ end }}
+</div>

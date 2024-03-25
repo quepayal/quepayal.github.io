@@ -1,4 +1,4 @@
 ---
 title: "About Me"
-layout: "timeline"
+layout: "aboutme"
 ---

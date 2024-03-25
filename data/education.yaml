@@ -1,0 +1,16 @@
+- university: The University of Texas at Austin
+  ticker: utaustin
+  degree: Masters of Science
+  fieldofstudy: Computer Science
+  startdate: August 2024
+  enddate: Present
+  grade: 
+  description: 
+- university: National Insitute of Technology Kurukshetra
+  ticker: nitkkr
+  degree: Bachelors of Technology
+  fieldofstudy: Electronics and Communication Engineering
+  startdate: July 2016
+  enddate: April 2020
+  grade: 8.638/10.00
+  description: Actively contributed a minimum of 5 hours per week to Open Source projects, mentored juniors, organized workshops, and maintained the Graphics & Web Development Squad, an Open Source Mozilla Campus Club.

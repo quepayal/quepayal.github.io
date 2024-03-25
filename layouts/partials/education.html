@@ -1,0 +1,12 @@
+<div class="vertical-container">
+    <div>
+        {{- partial "vector.html" (dict "name" "institution")  -}}
+        <h3>{{ .university }}</h3>
+        <p>{{ .degree }}, {{ .fieldofstudy }}</p>
+        <p>{{ .startdate }} - {{ .enddate }}</p>
+    </div>
+    <div>
+        {{ .description }}
+    </div>
+
+</div>

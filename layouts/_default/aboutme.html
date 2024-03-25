@@ -1,0 +1,35 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>
+    {{ .Title }}
+  </h1>
+</header>
+
+<div class="horizontal-container">
+  <div class="about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam aspernatur minus omnis quos qui! Nesciunt molestias odit repellendus fuga iusto iste eos facilis? Sequi, recusandae! Dolores ipsum ullam doloribus nostrum!</div>
+  {{ partial "profile.html" . }}
+</div>
+
+<div class="post-header"><h2>Experience</h2></div>
+<div class="vertical-container">
+  {{ range $.Site.Data.experience }}
+    {{ partial "experience.html" . }}
+  {{ end }}
+</div>
+
+<div class="post-header"><h2>Education</h2></div>
+<div class="vertical-container">
+  {{ range $.Site.Data.education }}
+    {{ partial "education.html" . }}
+  {{ end }}
+</div>
+
+<div class="post-header"><h2>Organizations</h2></div>
+<div class="vertical-container">
+  {{ range $.Site.Data.organizations }}
+    {{ partial "organizations.html" . }}
+  {{ end }}
+</div>
+
+{{- end }}{{/* end main */}}

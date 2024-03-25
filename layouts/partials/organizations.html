@@ -1,0 +1,12 @@
+<div>
+    <div>{{ .organizationname }}</div>
+    <div>{{ .positionheld }}</div>
+    <div>{{ .startdate }} - {{ .enddate }}</div>
+    <div>
+        {{- partial "vector.html" (dict "name" "company")  -}}
+        {{ .associatedwith }}
+    </div>
+    <div>
+        {{ .description }}
+    </div>
+</div>
