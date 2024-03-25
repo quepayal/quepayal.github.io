@@ -15,7 +15,7 @@
       description: Architected and implemented component versioning in a project under Employee Experience, to handle future structural changes in the application. Analyzed and migrated Application’s APIs from Service Fabric/APIM to Azure Functions that resulted in 50% performance increase, improved scalability, maintainability and 40% cost reduction. Implemented Azure Data Factory Pipeline to get the data from CosmosDb and SQL to Azure Storage table for analytics teams’ consumption.
 - company: Nasdaq
   ticker: ndaq
-  position:
+  positions:
     - title: Software Engineer Intern
       company: Nasdaq
       startdate: June 2019

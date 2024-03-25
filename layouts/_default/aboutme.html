@@ -7,28 +7,34 @@
 </header>
 
 <div class="horizontal-container">
-  <div class="about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam aspernatur minus omnis quos qui! Nesciunt molestias odit repellendus fuga iusto iste eos facilis? Sequi, recusandae! Dolores ipsum ullam doloribus nostrum!</div>
+  <div class="aboutme">{{ $.Site.Data.aboutme.aboutme }}</div>
   {{ partial "profile.html" . }}
 </div>
 
 <div class="post-header"><h2>Experience</h2></div>
 <div class="vertical-container">
   {{ range $.Site.Data.experience }}
+  <div>
     {{ partial "experience.html" . }}
+  </div>
   {{ end }}
 </div>
 
 <div class="post-header"><h2>Education</h2></div>
 <div class="vertical-container">
   {{ range $.Site.Data.education }}
+  <div>
     {{ partial "education.html" . }}
+  </div>
   {{ end }}
 </div>
 
 <div class="post-header"><h2>Organizations</h2></div>
 <div class="vertical-container">
   {{ range $.Site.Data.organizations }}
+  <div>
     {{ partial "organizations.html" . }}
+  </div>
   {{ end }}
 </div>
 

@@ -1,15 +1,15 @@
 <div class="vertical-container">
-    <div>
-        
-            {{- partial "vector.html" (dict "name" "company")  -}}
-        
+    <div class="vector-heading">
+        {{- partial "vector.html" (dict "name" "company")  -}}
         <h3>{{.company}}</h3>
     </div>
     {{ range .positions }}
-    <div>
-        <div>{{ .title }}</div>
-        <div>{{ .startdate }} - {{ .enddate }}</div>
-        <div>{{ .description }}</div>
+    <div class="designation">
+        <h4>{{ .title }}</h4>
+        <div class="timeline">{{ .startdate }} - {{ .enddate }}</div>
+    </div>
+    <div class="rendition">
+        {{ .description }}
     </div>
     {{ end }}
 </div>

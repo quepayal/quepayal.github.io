@@ -1,12 +1,11 @@
-<div>
-    <div>{{ .organizationname }}</div>
-    <div>{{ .positionheld }}</div>
-    <div>{{ .startdate }} - {{ .enddate }}</div>
-    <div>
-        {{- partial "vector.html" (dict "name" "company")  -}}
-        {{ .associatedwith }}
+<div class="vertical-container">
+    <h3>{{ .organizationname }}</h3>
+    <div class="designation">
+        <h4>{{ .positionheld }}</h4>
+        <div class="timeline">{{ .startdate }} - {{ .enddate }}</div>    
     </div>
-    <div>
+    <h5>Associated with {{ .associatedwith }}</h5>
+    <div class="rendition">
         {{ .description }}
     </div>
 </div>

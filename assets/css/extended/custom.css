@@ -11,7 +11,15 @@
 .horizontal-container {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+}
+
+.vector-heading {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.vector-heading > h3 {
+    padding-left: 10px; /* Adjust the value to your desired padding */
 }
 
 .vertical-container {
@@ -20,7 +28,12 @@
     align-items: flex-start;
 }
 
-.about {
+.vertical-container > :not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.aboutme {
+    font-size: medium;
     width: 80%;
 }
 
@@ -43,6 +56,14 @@ main .profile_inline {
 
 .profile_inline img {
     border-radius: 50%;
+}
+
+.designation .timeline {
+    font-size: small;
+}
+
+.rendition {
+    font-size: medium;
 }
 
 @media screen and (max-width: 768px) {
