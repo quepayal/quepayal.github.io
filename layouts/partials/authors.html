@@ -1,0 +1,7 @@
+<div>
+    {{ $authors := .Params.authors }}
+    {{ range $index, $author := $authors }}
+        {{ if gt $index 0 }}, {{ end }}
+        {{ if eq $author "author_1" }}<strong>{{ $author }}</strong>{{ else }}<span style="color: grey;">{{ $author }}</span>{{ end }}
+    {{ end }}
+</div>

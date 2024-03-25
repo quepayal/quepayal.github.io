@@ -1,0 +1,35 @@
+<button id="bibtexButton" onclick="openCitation()">BibTeX</button>
+
+<div id="popupBackground" class="popup-background">
+    <div id="popupContent" class="popup-content">
+        <span class="close" onclick="closeCitation()">&times;</span>
+        <h2 style="color: black;">Cite this paper</h2>
+        <!-- Citation data in BibTeX format -->
+        <pre class="pre-scrollable">
+@article{Author_2023,
+    title         = &lbrace;&lbrace;Inferring  Importance Sampling&rbrace;&rbrace;,
+    author        = &lbrace;&lbrace;Author_1&rbrace;&rbrace;, Author_1 and &lbrace;&lbrace;Author_2&rbrace;&rbrace;, Author_2 and &lbrace;&lbrace;Author_3&rbrace;&rbrace;, Author_3 and &lbrace;&lbrace;Author_4&rbrace;&rbrace;, Author_4 and &lbrace;&lbrace;Author_5&rbrace;&rbrace;, Author_5 and &lbrace;&lbrace;Author_6&rbrace;&rbrace;, Author_6,
+    year          = 2023,
+    adsurl        = {https://google.com},
+    eprint        = {0000.0000},
+    journal       = {arXiv preprints},
+    addendum      = &lbrace;&lbrace;Accepted at the Science Journal 2024&rbrace;&rbrace;,
+}
+        </pre>
+    </div>
+</div>
+
+<script>
+
+window.onload = function() {
+    document.getElementById("popupBackground").style.display = "none";
+}
+    function openCitation() {
+    document.getElementById("popupBackground").style.display = "block";
+}
+
+function closeCitation() {
+    document.getElementById("popupBackground").style.display = "none";
+}
+
+</script>

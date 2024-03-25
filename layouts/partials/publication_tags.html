@@ -1,0 +1,19 @@
+<div class="publication-tags">
+    {{ if .Params.preprint }}
+    <a href={{.Params.preprint}}>Preprint</a>
+    {{ end }}
+
+    {{- partial "bibtex.html" . -}}
+
+    {{ if .Params.pdf }}
+    <a href={{.Params.pdf}}>PDF</a>
+    {{ end }}
+
+    {{ if .Params.code }}
+    <a href={{.Params.preprint}}>Code</a>
+    {{ end }}
+
+    {{ if .Params.dataset }}
+    <a href={{.Params.preprint}}>Dataset</a>
+    {{ end }}
+</div>

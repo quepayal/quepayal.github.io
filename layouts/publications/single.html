@@ -1,0 +1,21 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>
+    {{ .Title }}
+  </h1>
+</header>
+
+
+{{- partial "authors.html" . -}}
+
+<div class="publication-desc"> {{ .Params.description | safeHTML }} </div>
+
+{{- partial "publication_tags.html" . -}}
+
+<h2>Abstract:</h2>
+<div>
+    {{ .Content }}
+</div>
+
+{{- end }}{{/* end main */}}
