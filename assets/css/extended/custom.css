@@ -70,6 +70,15 @@ main .profile_inline {
     margin: 20px 0px 20px 0px;
 }
 
+.heading-title {
+    margin-top: 50px;
+}
+
+.heading-title a:hover {
+    text-decoration: underline;
+    transform: scale(0.96);
+}
+
 .bibtex {
     color: whitesmoke;
     font-size: medium;

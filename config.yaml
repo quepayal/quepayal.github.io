@@ -118,18 +118,18 @@ menu:
       name: Publications
       url: /publications/
       weight: 10
-    - identifier: talks
-      name: Talks
-      url: /talks/
-      weight: 20
+    # - identifier: talks
+    #   name: Talks
+    #   url: /talks/
+    #   weight: 20
     - identifier: projects
       name: Projects
       url: /projects/
       weight: 30
-    - identifier: featured
-      name: Featured
-      url: /featured/
-      weight: 40
+    # - identifier: featured
+    #   name: Featured
+    #   url: /featured/
+    #   weight: 40
     - identifier: aboutme
       name: About Me
       url: /aboutme/

@@ -30,16 +30,14 @@
 {{- range $index, $page := $paginator.Pages }}
 
 <h3 class="heading-title">
-  <a aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"> {{ .Title }} </a>
+  <a aria-label="post link to {{ .Title | plainify }}" href="{{ .Params.github }}"> {{ .Title }} 
+    <span style="padding-top: 10px;">
+      {{- partial "vector.html" (dict "name" "link")  -}}
+    </span>
+  </a>
 </h3>
 
-
-{{- partial "authors.html" . -}}
-
 <div class="publication-desc"> {{ .Params.description | safeHTML }} </div>
-
-{{- partial "publication_tags.html" . -}}
-
 
 {{- end}}
 
