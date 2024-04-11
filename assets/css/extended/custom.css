@@ -66,8 +66,46 @@ main .profile_inline {
     font-size: medium;
 }
 
+.header {
+    margin: 20px 0px 20px 0px;
+}
+
+.bibtex {
+    color: whitesmoke;
+    font-size: medium;
+    background-color:#5D3FD3;
+    border-radius: 10%;
+    padding: 2px 5px 2px 5px;
+    margin: 4px;
+}
+
+
 .publication-desc {
     font-style: italic;
+}
+
+.publication-tags {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 5px 10px 0px;
+}
+
+.publication-tags a {
+    color: whitesmoke;
+    font-size: medium;
+    background-color:#5D3FD3;
+    border-radius: 10%;
+    padding: 2px 5px 2px 5px;
+    margin: 4px;
+}
+
+.abstract {
+    display: flex;
+    flex-direction: column;
+}
+
+.abstract div {
+    margin: 20px 0px 10px 0px;
 }
 
 @media screen and (max-width: 768px) {

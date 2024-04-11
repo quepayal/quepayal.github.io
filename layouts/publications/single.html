@@ -1,6 +1,6 @@
 {{- define "main" }}
 
-<header class="page-header">
+<header class="header">
   <h1>
     {{ .Title }}
   </h1>
@@ -13,9 +13,15 @@
 
 {{- partial "publication_tags.html" . -}}
 
-<h2>Abstract:</h2>
-<div>
-    {{ .Content }}
+<div class="abstract">
+  <div>
+    <h2>
+      Abstract:
+    </h2>
+  </div>
+  <div>
+      {{ .Content }}
+  </div>
 </div>
 
 {{- end }}{{/* end main */}}

@@ -1,9 +1,9 @@
 <div class="publication-tags">
+    {{- partial "bibtex.html" . -}}
+    
     {{ if .Params.preprint }}
     <a href={{.Params.preprint}}>Preprint</a>
     {{ end }}
-
-    {{- partial "bibtex.html" . -}}
 
     {{ if .Params.pdf }}
     <a href={{.Params.pdf}}>PDF</a>
